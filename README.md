@@ -1,10 +1,6 @@
 # 🚀 Learning Path Generator with Model Context Protocol (MCP)
 
-[![Streamlit](https://img.shields.io/badge/Built%20With-Streamlit-orange?logo=streamlit)](https://streamlit.io)  
-[![MCP](https://img.shields.io/badge/MCP%20Enabled-Yes-blueviolet)]()  
-[![Made by Naresh](https://img.shields.io/badge/Made%20by-Naresh%20B%20A-green)]()  
-[![Status](https://img.shields.io/badge/Status-Active%20%26%20Improving-brightgreen)]()  
-[![License: MIT](https://img.shields.io/badge/License-MIT-lightgrey.svg)](https://opensource.org/licenses/MIT)
+[![Streamlit](https://img.shields.io/badge/Built%20With-Streamlit-orange?logo=streamlit)](https://streamlit.io) [![MCP](https://img.shields.io/badge/MCP%20Enabled-Yes-blueviolet)]()  [![Made by Naresh](https://img.shields.io/badge/Made%20by-Naresh%20B%20A-green)]()  [![Status](https://img.shields.io/badge/Status-Active%20%26%20Improving-brightgreen)]()  [![License: MIT](https://img.shields.io/badge/License-MIT-lightgrey.svg)](https://opensource.org/licenses/MIT)
 
 > ✨ **An AI-powered Streamlit app that generates custom learning journeys using real tools and APIs — powered by MCP workflows.**
 
@@ -36,8 +32,7 @@ Whether you're a student, developer, or lifelong learner — this tool helps you
 
 | Home Page | Learning Path |
 |----------|----------------|
-| <img width="1919" height="894" alt="Screenshot 2025-07-20 190327" src="https://github.com/user-attachments/assets/f81a8303-d214-4e4b-a461-83777fc7be1d" />
- | <img width="1917" height="898" alt="Screenshot 2025-07-20 190344" src="https://github.com/user-attachments/assets/3629ede1-8e42-44d2-a272-1b22d878ffcc" />
+| <img width="1919" height="894" alt="Screenshot 2025-07-20 190327" src="https://github.com/user-attachments/assets/f81a8303-d214-4e4b-a461-83777fc7be1d" /> | <img width="1917" height="898" alt="Screenshot 2025-07-20 190344" src="https://github.com/user-attachments/assets/3629ede1-8e42-44d2-a272-1b22d878ffcc" />
  |
 
 ---
