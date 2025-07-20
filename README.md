@@ -1,16 +1,35 @@
 # 🚀 Learning Path Generator with Model Context Protocol (MCP)
 
-[![Streamlit](https://img.shields.io/badge/Built%20With-Streamlit-orange?logo=streamlit)](https://streamlit.io) [![MCP](https://img.shields.io/badge/MCP%20Enabled-Yes-blueviolet)]()  [![Made by Naresh](https://img.shields.io/badge/Made%20by-Naresh%20B%20A-green)]()  [![Status](https://img.shields.io/badge/Status-Active%20%26%20Improving-brightgreen)]()  [![License: MIT](https://img.shields.io/badge/License-MIT-lightgrey.svg)](https://opensource.org/licenses/MIT)
+[![MCP](https://img.shields.io/badge/MCP%20Enabled-Yes-blueviolet)]()
+[![License: MIT](https://img.shields.io/badge/License-MIT-lightgrey.svg)](https://opensource.org/licenses/MIT)
+[![LangChain](https://img.shields.io/badge/LangChain-💡%20LLM%20Orchestration-blue)](https://github.com/langchain-ai/langchain)
+[![LangGraph](https://img.shields.io/badge/LangGraph-⚙️%20Multi-Agent%20Workflows-purple)](https://github.com/langchain-ai/langgraph)
+[![LangChain MCP](https://img.shields.io/badge/LangChain--MCP-🔗%20Real%20World%20Actions-brightgreen)](https://github.com/langchain-ai/langchain-mcp)
+[![Google GenAI](https://img.shields.io/badge/LangChain--Google%20GenAI-🌐%20Search%20Enabled-lightblue)](https://github.com/langchain-ai/langchain-google-genai)
+[![Streamlit](https://img.shields.io/badge/Streamlit-🖥️%20Frontend-orange)](https://streamlit.io)
 
-> ✨ **An AI-powered Streamlit app that generates custom learning journeys using real tools and APIs — powered by MCP workflows.**
-
----
+> ✨ **An AI-powered Streamlit app that generates intelligent, goal-based learning journeys by combining the power of LLMs, real-time APIs, and workflow automation — all orchestrated through Model Context Protocol (MCP).**
 
 ## 📌 Overview
 
-This project is a **Streamlit-based web app** that crafts personalized learning paths using **Model Context Protocol (MCP)**. With real-time integrations across YouTube, Google Drive, and Notion, it delivers complete learning experiences tailored to your goals.
+This project transforms a simple learning goal like  
+> _"I want to learn Python basics in 3 days"_  
+into a fully structured, personalized learning path with YouTube video modules, document storage via Google Drive or Notion, and automatic task tracking — in seconds.
 
-Whether you're a student, developer, or lifelong learner — this tool helps you go from **"I want to learn..."** to **structured action plans in seconds**.
+Whether you're an independent learner or building scalable AI workflows, this project shows how to move from **prompts ➝ real-world outcomes.**
+
+---
+
+## 🧠 Built With
+
+| Stack                        | Description                                                                 |
+|-----------------------------|-----------------------------------------------------------------------------|
+| **LangChain**               | Framework for building LLM-powered applications with modular components.   |
+| **LangGraph**               | Graph-based system for orchestrating multi-agent, stateful AI workflows.   |
+| **LangChain-MCP Adapters**  | Bridges LLMs with real-world tools (Drive, Notion, Gmail) via MCP.         |
+| **LangChain-Google GenAI**  | Connects to Google’s Generative AI models for real-time content retrieval. |
+| **Streamlit**               | Python framework for building interactive, data-driven web apps.           |
+
 
 ---
 
