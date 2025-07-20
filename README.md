@@ -28,12 +28,9 @@ Whether you're a student, developer, or lifelong learner — this tool helps you
 
 ## 📸 Screenshots
 
-> *(Replace with your actual screenshots)*
-
 | Home Page | Learning Path |
 |----------|----------------|
 | <img width="1919" height="894" alt="Screenshot 2025-07-20 190327" src="https://github.com/user-attachments/assets/f81a8303-d214-4e4b-a461-83777fc7be1d" /> | <img width="1917" height="898" alt="Screenshot 2025-07-20 190344" src="https://github.com/user-attachments/assets/3629ede1-8e42-44d2-a272-1b22d878ffcc" />
- |
 
 ---
 
