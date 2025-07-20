@@ -1,61 +1,133 @@
-# Learning Path Generator with Model Context Protocol (MCP)
+# 🚀 Learning Path Generator with Model Context Protocol (MCP)
 
-This project is a Streamlit-based web application that generates personalized learning paths using the Model Context Protocol (MCP). It integrates with various services including YouTube, Google Drive, and Notion to create comprehensive learning experiences.
+[![Streamlit](https://img.shields.io/badge/Built%20With-Streamlit-orange?logo=streamlit)](https://streamlit.io)  
+[![MCP](https://img.shields.io/badge/MCP%20Enabled-Yes-blueviolet)]()  
+[![Made by Naresh](https://img.shields.io/badge/Made%20by-Naresh%20B%20A-green)]()  
+[![Status](https://img.shields.io/badge/Status-Active%20%26%20Improving-brightgreen)]()  
+[![License: MIT](https://img.shields.io/badge/License-MIT-lightgrey.svg)](https://opensource.org/licenses/MIT)
 
-## Features
+> ✨ **An AI-powered Streamlit app that generates custom learning journeys using real tools and APIs — powered by MCP workflows.**
 
-- 🎯 Generate personalized learning paths based on your goals
-- 🎥 Integration with YouTube for video content
-- 📁 Google Drive integration for document storage
-- 📝 Notion integration for note-taking and organization
-- 🚀 Real-time progress tracking
-- 🎨 User-friendly Streamlit interface
+---
 
-## Prerequisites
+## 📌 Overview
 
-- Python 3.10+
-- Google ai Studio API Key
-- Pipedream URLs for integrations (YouTube and either Drive or Notion)
+This project is a **Streamlit-based web app** that crafts personalized learning paths using **Model Context Protocol (MCP)**. With real-time integrations across YouTube, Google Drive, and Notion, it delivers complete learning experiences tailored to your goals.
 
-## Installation
+Whether you're a student, developer, or lifelong learner — this tool helps you go from **"I want to learn..."** to **structured action plans in seconds**.
 
-1. Clone the repository:
+---
 
-2. Create and activate a virtual environment:
+## ⚙️ Features
 
-3. Install the required packages:
+- 🎯 Generate **goal-based learning paths**
+- 🎥 **YouTube integration** for curated video lessons
+- 📁 Sync with **Google Drive** for docs & resources
+- 📝 Auto-create structured notes in **Notion**
+- 🔁 **Real-time progress tracking**
+- 🧠 Powered by **MCP (Model Context Protocol)**
+- 🎨 Clean, fast UI built with Streamlit
+
+---
+
+## 📸 Screenshots
+
+> *(Replace with your actual screenshots)*
+
+| Home Page | Learning Path |
+|----------|----------------|
+| <img width="1919" height="894" alt="Screenshot 2025-07-20 190327" src="https://github.com/user-attachments/assets/f81a8303-d214-4e4b-a461-83777fc7be1d" />
+ | <img width="1917" height="898" alt="Screenshot 2025-07-20 190344" src="https://github.com/user-attachments/assets/3629ede1-8e42-44d2-a272-1b22d878ffcc" />
+ |
+
+---
+
+## 🔑 Prerequisites
+
+- Python **3.10+**
+- [Google AI Studio API Key](https://makersuite.google.com/app)
+- **Pipedream endpoints** for:
+  - YouTube (required)
+  - Google Drive or Notion (pick one or both)
+
+---
+
+## 🛠 Installation
+
 ```bash
+# Clone the repo
+git clone https://github.com/Phoenixarjun/Learning-Path-Generator-with-MCP
+cd Learning-Path-Generator-with-MCP
+
+# Create virtual environment
+python -m venv venv
+.\venv\Scripts\activate   # For Windows
+
+# Install dependencies
 pip install -r requirements.txt
-```
+````
 
-## Configuration
+---
 
-Before running the application, you'll need to set up:
+## ⚙️ Configuration
 
-1. Google API Key
-2. Pipedream URLs for:
-   - YouTube (required)
-   - Google Drive or Notion (based on your preference)
+Before launching the app, set your secrets in the sidebar or use `.env` variables:
 
-## Running the Application
+* Google AI Studio API key
+* YouTube integration URL (via Pipedream)
+* Notion or Google Drive endpoint URL
 
-To start the application, run:
+---
+
+## ▶️ Running the App
+
 ```bash
 streamlit run app.py
 ```
 
-The application will be available at `http://localhost:8501` by default.
+Then open: `http://localhost:8501` in your browser.
 
-## Usage
+---
 
-1. Enter your Google ai studio API key and Pipedream URLs in the sidebar
-2. Select your preferred secondary tool (Drive or Notion)
-3. Enter your learning goal (e.g., "I want to learn python basics in 3 days")
-4. Click "Generate Learning Path" to create your personalized learning plan
+## 🧠 How It Works
 
-## Project Structure
+1. User enters learning goal (e.g., "Learn Python in 7 days")
+2. LLM + MCP converts it to an action plan
+3. Connects to YouTube for videos
+4. Optionally syncs notes to Notion or Drive
+5. Displays progress in real-time with a simple UI
 
-- `app.py` - Main Streamlit application
-- `utils.py` - Utility functions and helper methods
-- `prompt.py` - Prompt template
-- `requirements.txt` - Project dependencies
+---
+
+## 📁 Project Structure
+
+```
+mcp-learning-path/
+├── app.py               # Main Streamlit app
+├── utils.py             # Helper functions
+├── prompt.py            # Prompt templates
+├── requirements.txt     # Dependencies
+├── screenshots/         # UI screenshots
+└── README.md            # Project documentation
+```
+
+---
+
+## 👨‍💻 Author
+
+**Naresh B A**
+🚀 Full Stack Developer | AI/ML Explorer | LLMs & Agentic AI | NLP Enthusiast
+Crafting future-ready solutions by blending code, cognition, and creativity.
+[LinkedIn](https://www.linkedin.com/in/nareshba) • [GitHub](https://github.com/nareshbabu8)
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+
+---
+
+## 💬 Feedback & Contributions
+
+Feel free to raise issues or submit PRs. Ideas, improvements, or collaborations — all are welcome!
